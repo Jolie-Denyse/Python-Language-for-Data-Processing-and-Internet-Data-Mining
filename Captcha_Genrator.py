@@ -42,7 +42,7 @@ root=Tk()
 photo = PhotoImage(file="out.png")
 
 l1=Label(root,image=photo,height=100,width=200)
-t1=Text(root,height=5,width=50)
+t1=Text(root,height=10,width=60)
 b1=Button(root,text="submit",command=verify)
 b2=Button(root,text="refresh",command=refresh)
 
